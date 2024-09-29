@@ -1,0 +1,253 @@
+.BG_home {
+	background-color: #302a1e;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Contain floats: h5bp.com/q*/
+.clearfix::after {
+	display: block;
+	clear: both;
+	content: "";
+}
+
+/*********** Hear *****************/
+.nav-BG {
+	background: linear-gradient(140deg, #fefdf4 0%, #faf9ce 25%, #e6d4a8 40%, #786748 90%);
+}
+div.relative {
+	position: relative;
+}
+a.navbar-brand img {
+	margin: 10px 0px 40px 30px;
+}
+a.navbar-brand2 img {
+	margin: 40px 0px 10px 30px;
+}
+
+div.linklist {
+	/*position: absolute;
+	top: 92px;
+	right: 10px;*/
+	font-size: small;
+}
+div.langlist {
+	font-size: small;
+	/*	position: absolute;
+	top: 10px;
+	right: 20px;*/
+}
+div.langlist span {
+	/* vertical-align: middle; */
+	vertical-align: top;
+}
+.btn-linklist {
+	--bs-btn-color: #fff;
+	--bs-btn-hover-color: #fff;
+	--bs-btn-hover-bg: #f8bc08;
+	--bs-btn-active-color: #fff;
+	--bs-btn-active-bg: #f8a008;
+}
+.btn-menu {
+	--bs-btn-color: #c67859c0;
+	--bs-btn-hover-color: #fff;
+	--bs-btn-hover-bg: rgb(248, 188, 8, 0.5);
+	--bs-btn-active-color: #fff;
+	--bs-btn-active-bg: rgb(248, 188, 8, 0.6);
+}
+.a-linklist {
+	padding: 1rem;
+	color: #ffffff;
+}
+.a-linklist:hover {
+	background-color: #f8bc08;
+	color: #000000;
+}
+/*********** Slideshow *****************/
+/*   花   */
+div.title-banner {
+	position: absolute;
+	font-size: 25pt;
+	padding: 20px 50px 10px 120px;
+	top: -67px;
+	left: 3%;
+	background-image: url("../img/banner-bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: left;
+	color: #f7f6f3;
+	z-index: 999;
+
+	font-family: "Urbanist", sans-serif;
+}
+div.Slideshow_bg {
+	background-image: url("../img/BG-01.jpg");
+	background-color: #cccccc;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.slideshow {
+	box-shadow: 20px 20px 10px rgb(0, 0, 0, 0.2);
+	margin-bottom: 50px;
+	float: right;
+}
+.title-bottom {
+	/*background: linear-gradient(90deg, rgb(52, 25, 0, 1), rgb(52, 25, 0, 0));*/
+	background: linear-gradient(90deg, rgb(0, 123, 255), rgb(0, 123, 255, 0));
+	bottom: 0px;
+	max-width: 600px;
+	padding-left: 2rem;
+	padding-right: 3rem;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+	font-family: "Urbanist", sans-serif;
+	z-index: 998;
+}
+/* Welcome to Island Paradise */
+.title-A {
+	font-size: 1.3em;
+	color: #ffffff;
+	white-space: nowrap;
+	/*font-family: 'EB Garamond', serif;*/
+	font-family: "Rock Salt", cursive;
+}
+.title-B {
+	font-size: 0.8em;
+	color: #ffffff;
+	white-space: nowrap;
+}
+.btm-content {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	background-size: 100%;
+	padding: 0px;
+}
+/*--- discover 4 ---*/
+.discover {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	background-size: 100%;
+	color: #fff;
+	font-family: "Urbanist", sans-serif;
+}
+
+.discover .content {
+	margin: 60% 2em 2em 2em;
+	font-size: 0.7em;
+}
+.discover .content .title {
+	font-size: 1.8em;
+}
+/********** Rooms **********/
+
+.room-title {
+	font-size: 3vw; color: #fff;
+	
+}
+.room-content-L {
+	bottom: 1rem;
+	left: 3vw;
+	font-size: 10pt;line-height: .6;
+}
+.room-content {
+	bottom: 1rem;
+	right: 3vw;
+	font-size: 10pt;line-height: .6;
+}
+/*--- Footer ---*/
+.footer {
+	color: #fff;
+	background: linear-gradient(90deg, #4e3f26, #93815d);
+	font-size: small;
+	padding: 20px;
+}
+.footer a:link,
+.footer aa:visited {
+	color: #fff;
+}
+img.hover-opacity:hover {
+	opacity: 30%;
+}
+/**** Responsiveness ***********************************************************/
+
+/*--- sm ---*/
+@media screen and (min-width: 576px) {
+	.title-A {
+		font-size: 1.6em;
+		white-space: nowrap;
+	}
+	.title-B {
+		font-size: 1em;
+		white-space: nowrap;
+	}
+}
+/*--- md 1格---*/
+@media screen and (min-width: 768px) {
+	.title-A {
+		font-size: 2em;
+		white-space: nowrap;
+	}
+	.title-B {
+		font-size: 1.2em;
+		white-space: nowrap;
+	}
+
+	.discover .title {
+		font-size: 2em;
+	}
+	.discover .content,.room-content-L {
+		font-size: 1rem;
+	}
+	.room-title {
+		font-size: 26pt;
+	}
+	.room-content {
+		font-size: 1em;
+	}
+}
+/*--- lg ---*/
+@media screen and (min-width: 992px) {
+	a.navbar-brand img {
+		margin: 25px 0px;
+	}
+	div.title-banner {
+		position: absolute;
+		top: 10px;
+		left: 4%;
+		/*height: 100px;*/
+	}
+	.title-A {
+		font-size: 2.8em;
+		white-space: nowrap;
+	}
+	.title-B {
+		font-size: 1.8em;
+		white-space: nowrap;
+	}
+	.discover .content,.room-content-L {
+		font-size: 1em;
+	}
+	.discover .content .title {
+		font-size: 1.5em;
+	}
+}
+/*--- xl ---*/
+@media screen and (min-width: 1200px) {
+	.title-A {
+		font-size: 3em;
+		white-space: nowrap;
+	}
+	.title-B {
+		font-size: 2em;
+		white-space: nowrap;
+	}
+}
+/*--- xxl ---*/
+@media screen and (min-width: 1400px) {
+}

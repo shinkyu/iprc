@@ -1,0 +1,80 @@
+.BG_home {
+	background-color: #302a1e;
+}
+.nav-BG {
+	background: linear-gradient(140deg, #fefdf4 0%, #faf9ce 25%, #e6d4a8 50%, #786748 90%);
+}
+.left-line {
+	background-image: url("../img/devide_line.png");
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+/* Contain floats: h5bp.com/q */
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+	zoom: 1;
+}
+/*********** Hear *****************/
+div.relative {
+	position: relative;
+}
+button.sidebar {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+div.linklist {
+	position: absolute;
+	top: 90px;
+	right: 10px;
+	font-size: small;
+}
+div.langlist {
+	font-size: small;
+	position: absolute;
+	top: 10px;
+	right: 20px;
+}
+.langlist .w3-button {
+	padding: 8px;
+}
+
+.linklist span,
+.w3-sidebar span {
+	vertical-align: middle;
+}
+/*********** Slideshow *****************/
+div.title-banner {
+	position: absolute;
+	top: 10px;
+	left: 4%;
+	height: 100px;
+	width: 600px;
+	background-image: url("../img/banner-bg.png");
+	background-repeat: no-repeat;
+	color: #f7f7f3;
+	z-index: 999;
+}
+div.Slideshow_bg {
+	max-width: 1200px;
+
+	background-image: url("../img/BG-01.jpg");
+	background-color: #cccccc;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.slideshow {
+	box-shadow: 20px 20px 10px rgb(0, 0, 0, 0.2);
+	margin-bottom: 30px;
+}

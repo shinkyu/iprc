@@ -1,0 +1,286 @@
+body {
+	background-color: rgb(243, 238, 232);
+	color: #5e5e5e;
+	font-size: 10pt;
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+	text-decoration: none;
+	color: #484848;
+}
+hr {
+	background-color: #f38433;
+	color: #f38433;
+	height: 2px;
+	border: none;
+	margin: 5px;
+}
+/* ===================== SiderBar ================== */
+.offcanvas {
+	background-color: #f3eee8;
+	font-family: "Urbanist", sans-serif;
+}
+.offcanvas .list-group a.thispage,
+.offcanvas .list-group a {
+	background-color: #f3eee8;
+	padding-left: 30px;
+	border-bottom: 1px solid #f1bb8d;
+}
+.offcanvas .list-group a.thispage,
+.offcanvas .list-group a:hover {
+	background-color: #f3e3d5;
+	color: #f38433;
+}
+
+.offcanvas .list-group a.thispage {
+	border-left: 5px solid #f1bb8d;
+}
+
+/* ===================== Header ================== */
+.top-nav {
+	background-color: rgba(255, 255, 255, 0.6);
+	backdrop-filter: blur(10px);
+}
+.video-t-space {
+	height: 55px;
+}
+
+
+
+/* Sidebar menu */
+a.btn-menu i {
+	font-size: 35pt;
+	color: #aeaeae;
+	padding: 4px;
+	border-radius: 8px;
+}
+a.btn-menu i:hover {
+	background-color: #f3e3d5;
+}
+a.btn-menu i:active {
+	color: #f38433;
+}
+
+.navbar-brand {
+	width: 200px;
+}
+.navbar-brand-sm {
+	width: 120px;
+	margin: 10px;
+}
+
+.nav-menu {
+	border-style: solid;
+	border-color: #f1bb8d;
+	border-width: 1px 0;
+}
+
+.nav-menu a {
+	white-space: nowrap;
+	color: #363636;
+	margin-left: 1em;
+	font-size: 10pt;
+	letter-spacing: 0.1em;
+	padding: 10px;
+	font-family: "Urbanist", sans-serif;
+	display: inline-block;
+}
+.nav-menu a.active {
+	color: #f38433;
+}
+.nav-menu a:hover {
+	/*background-color: #f3e3d5;*/
+	background-color: rgba(255, 255, 255, 0.5);
+	color: #f38433;
+}
+
+.nav-line {
+	border-style: solid;
+	border-color: #f1bb8d;
+	border-width: 1px 0 0 0;
+}
+/***************   language   ***************/
+div.langlist {
+	font-size: 10pt;
+	margin-top: 30px;
+	right: 0px;
+}
+div.langlist span {
+	vertical-align: top;
+}
+
+.btn-linklist {
+	font-family: "Urbanist", sans-serif;
+	letter-spacing: 0.1em;
+	--bs-btn-color: #585858;
+	--bs-btn-hover-color: #f38433;
+	--bs-btn-hover-bg: #f3e3d5;
+	--bs-btn-active-color: #f38433;
+	--bs-btn-active-bg: #f3e3d5;
+}
+.dropdown-menu a:hover {
+	background-color: #fbefe4;
+	color: #f38433;
+}
+
+.dropdown-menu a {
+	color: #767676;
+	font-size: 11pt;
+	letter-spacing: 0.1em;
+}
+/**   btn-reserve  **/
+a.btn-reserve {
+	background-color: #5a4f3b;
+	color: #fff;
+	padding: 15px 35px;
+}
+a.btn-reserve:hover {
+	opacity: 0.75;
+}
+
+/**   FB   **/
+a.fb-icon {
+	padding: 12px;
+	border-radius: 8px;
+}
+a.fb-icon:hover {
+	background-color: #f3e3d5;
+}
+a.fb-icon svg {
+	width: 24px;
+}
+a.fb-icon svg path {
+	fill: #585858;
+}
+a.fb-icon:hover svg path {
+	fill: #f38433;
+}
+
+/*******/
+.title-wrap {
+	margin-top: 4em;
+	margin-bottom: 2em;
+}
+.title-a {
+	font-size: 1.5em;
+}
+.title-b {
+	font-size: 10pt;
+}
+
+.title-c {
+	font-weight: bold;
+	margin: 20px 0px 10px 0px;
+}
+
+.txt-small {
+	font-size: 0.7em;
+}
+/***  location  ***/
+.location {
+	margin: 20px 10px 50px 10px;
+}
+
+/*--- Footer ---*/
+.footer-logo {
+	width: 150px;
+}
+.footer {
+	color: #fff;
+	background: linear-gradient(90deg, #4e3f26, #93815d);
+	font-size: small;
+	padding: 20px 20px 20px 0px;
+}
+.footer a:link,
+.footer aa:visited {
+	color: #fff;
+}
+img.hover-opacity:hover {
+	opacity: 30%;
+}
+.icon a {
+	font-size: 16pt;
+	margin-left: 12px;
+	color: #fff;
+}
+/********* Room **********/
+.room-title {
+	font-family: "DM Serif Display", serif;
+	letter-spacing: 0.1em;
+}
+.room-title-b {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.room-text {
+	opacity: 0.7; text-indent: 1em;
+}
+a.check-btn {
+	color: #585858;
+	border-radius: 0%;
+	border-style: solid;
+	border-color: #c4c4c4;
+	border-width: 1px;
+}
+a.check-btn:hover {
+	background-color: #f3e3d5;
+	color: #f38433;
+	border-color: #f1bb8d;
+}
+.room-title-c {
+	font-size: 3vw;
+	color: #fff;
+}
+.room-content-L {
+	bottom: 1rem;
+	left: 3vw;
+	font-size: 10pt;
+	line-height: 0.6;
+}
+.room-content {
+	bottom: 1rem;
+	right: 3vw;
+	font-size: 10pt;
+	line-height: 0.6;
+}
+/*************************
+Responsiveness 
+*************************/
+
+/*--- sm ---*/
+@media screen and (min-width: 576px) {
+	.txt-small {
+		font-size: 0.8em;
+	}
+}
+/*--- md ---*/
+@media screen and (min-width: 768px) {
+	.txt-small {
+		font-size: 0.9em;
+	}
+	.location {
+		margin: 20px 10px 150px 10px;
+	}
+	.footer-logo {
+		width: 200px;
+	}
+	.room-title-c {
+		font-size: 20pt;
+	}
+}
+
+/*--- lg ---*/
+@media screen and (min-width: 992px) {
+	.video-t-space {
+		height: 145px;
+	}
+}
+
+/*--- xl ---*/
+@media screen and (min-width: 1200px) {
+}
+
+/*--- xxl ---*/
+@media screen and (min-width: 1400px) {
+}
